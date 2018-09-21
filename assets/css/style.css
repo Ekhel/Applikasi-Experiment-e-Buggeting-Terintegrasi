@@ -1,0 +1,39 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+ }
+ #map {
+  height:80%;
+}
+
+	.leaflet-control-layers-group-name {
+      font-weight: bold;
+      margin-bottom: .2em;
+      display: block;
+    }
+
+    .leaflet-control-layers-group {
+      margin-bottom: .5em;
+    }
+
+    .leaflet-control-layers-group label {
+      padding-left: .5em;
+    }
+    #delete, #export {
+            position: absolute;
+            top:50px;
+            right:10px;
+            z-index:100;
+            background:white;
+            color:black;
+            padding:6px;
+            border-radius:4px;
+            font-family: 'Helvetica Neue';
+            cursor: pointer;
+            font-size:12px;
+            text-decoration:none;
+        }
+        #export {
+            top:90px;
+        }
